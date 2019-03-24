@@ -51,9 +51,3 @@ inline void TcpBench::setHostAndPort(string shost, int clientPort) {
     this->shost = shost;
     this->clientPort = clientPort;
 }
-
-int main() {
-    TcpBench tcpbench;
-
-    return 0;
-}
